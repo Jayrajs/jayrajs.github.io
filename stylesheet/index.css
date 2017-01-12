@@ -23,7 +23,7 @@ body{
 	width: 63px;
 	border-width: 21px;
 	border-bottom: 0;
-	border-color: #449AAB;
+	border-color: #292e47;
 	margin: 1em 0 1em 0;
 }
 .my-thin-hr{
@@ -38,13 +38,13 @@ input[type=text].my-input,input[type=email].my-input{
     border-radius: 0;
     border-width: 0 0 1px 0;
     border-color: gray;
-    color: #449AAB;
+    color: #292e47;
     height: 0.5em;
 }
 
 .my-btn{
     border-radius: 0;
-    background-color: #449AAB;
+    background-color: #292e47;
     color: white;
     font-weight: bold;
 }
