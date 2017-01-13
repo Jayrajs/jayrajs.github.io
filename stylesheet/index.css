@@ -1,18 +1,22 @@
+
+
 body{
     background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 20% 20%;
+    background-position: 25% 25%;
 }
+
 .container-fluid{
     margin: 0;
     padding: 0;
+
 }
 .my-full-height{
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(18,17,33,0.85));
 }
 .my-intro-panel{
 	color: white;
@@ -20,31 +24,66 @@ body{
     margin-bottom: 2em;
 }
 .my-thick-hr{
-	width: 63px;
-	border-width: 21px;
+	width: 60px;
+	border-width: 4px;
 	border-bottom: 0;
-	border-color: #292e47;
+	border-color: #4d567e;
 	margin: 1em 0 1em 0;
 }
 .my-thin-hr{
-    width: 100%;
-    border-width: 3px;
+    width: 60px;
+    border-width: 9px;
     border-bottom: 0;
-    border-color: gray;
+    border-color: #4d567e;
     margin: 1em 0 1em 0;
 }
-input[type=text].my-input,input[type=email].my-input{
-    background-color: transparent;
-    border-radius: 0;
-    border-width: 0 0 1px 0;
-    border-color: gray;
-    color: #292e47;
-    height: 0.5em;
+
+input[type]{
+    -webkit-appearance: none;/*removes browser override style on mac*/
+
+    /*2. set the width to fill container: 100% */
+    /*3. increase font size to: 1.5rem */
+    /*4. increase height to: 2rem */
+    font-size:1rem;
+    height:2rem;
+    background-color:rgba(77,86,126,0.3) !important;
+    border:none !important;
+    color:white;
+
+    
+}
+
+/*input[type]:focus is a state of being used */
+input[type=text]:focus, 
+input[type=email]:focus{
+    color:white;
+    border-color:white;
+    
+
 }
 
 .my-btn{
     border-radius: 0;
-    background-color: #292e47;
-    color: white;
+    background-color: WHITE ;
+    color: #4d567e;
     font-weight: bold;
+}
+
+.my-link{
+    font-weight:400;
+    text-decoration: none;
+    color:white;
+}
+
+.my-link:hover, .my-link:active{
+    color:white;
+    background-color: rgba(77,86,126,0.4);
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size:1.2rem;
+
+}
+
+.my-link.visited{
+    color:white;
 }
