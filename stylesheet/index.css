@@ -1,11 +1,10 @@
-
-
 body{
     background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 25% 25%;
+
 }
 
 .container-fluid{
@@ -28,7 +27,7 @@ body{
 	border-width: 4px;
 	border-bottom: 0;
 	border-color: #4d567e;
-	margin: 1em 0 1em 0;
+	margin-left:auto;
 }
 .my-thin-hr{
     width: 60px;
